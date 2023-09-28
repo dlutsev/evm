@@ -2,15 +2,14 @@
 int main(){
         long int n = 2000000000;
         double pi=0;
+        double op=0;
         for (long int i = 0; i <= n; i++){
-                if(i%2 == 0){
-                        double op = i;
+                op = i;
+                if(i%2 == 0)
                         pi = pi + 4/(2*op+1);
-                }
-                else{
-                        double op = i;
+
+                else
                         pi = pi - 4/(2*op+1);
-                }
         }
         printf("%1.9f\n", pi);
         return 0;
