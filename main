@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-        long int n = 2000000000;
+        long int n = 6000000000;
         double pi=0;
         double op=0;
         for (long int i = 0; i <= n; i++){
